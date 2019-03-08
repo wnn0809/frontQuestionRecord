@@ -1,0 +1,12 @@
+
+npm -S -D -g的区别：
+
+例如安装echarts模块时：
+npm install echarts -S    即    npm install module_name --save    写入dependencies。
+npm install echarts -D    即    npm install module_name --save-dev 写入devDependencies。
+npm install echarts -g    全局安装(命令行使用)。
+npm install echarts       本地安装(将安装包放在 ./node_modules 下)。
+
+说明：
+devDependencies 里面的插件只用于开发环境，不用于生产环境。
+dependencies 是需要发布到生产环境的。
