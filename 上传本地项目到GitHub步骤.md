@@ -19,3 +19,11 @@
         1.命令行输入 git add "上传文件的名称" 将文件添加到库。
         2.命令行输入 git commit -m"描述：如新增项目xxx".提交到本地的版本控制库里，引号里面是你对本次提交的说明信息
         3.命令行输入 git push -u origin master 将本地的仓库提交到你的github,最后会让输入github的账号和密码，输入回车之后再去看github项目，就看到本地项目出现在github上了。
+		
+		
+问题解决：
+1.如果遇到error：failed to push some refs to ...错误？
+
+解决方法：
+通过以下命令进行代码合并
+git pull --rebase origin master 这时候就可以在本地文件内看到README.md文件 之后再运行git push origin master`进行推送
