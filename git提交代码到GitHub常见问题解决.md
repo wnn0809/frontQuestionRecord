@@ -1,3 +1,6 @@
+
+本篇文章早期更与我的[博客](https://blog.csdn.net/w1418899532)，更多内容详见我的博客。
+
 git提交代码到GitHub时，由于多人同时对工程项目进行修改，可能会引起冲突，命令行会报一些错误。这里将我遇到的问题及解决方法记录下来。
 ## <font color="red">问题1：error：failed to push some refs to
 
