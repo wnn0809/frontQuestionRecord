@@ -1,5 +1,6 @@
 # web
-###本地项目如何上传到GitHub？
+
+## 本地项目如何上传到GitHub？
 
 第一步：注册GitHub账号，已经有的情况下自动跳过这一步。如何注册GitHub账号可以自己百度
 
@@ -24,6 +25,9 @@
 问题解决：
 1.如果遇到error：failed to push some refs to ...错误？
 
-解决方法：
+解决方法1：
 通过以下命令进行代码合并
 git pull --rebase origin master 这时候就可以在本地文件内看到README.md文件 之后再运行git push origin master`进行推送
+
+解决方法2：
+git push -u origin master -f   使用此命令强制提交
